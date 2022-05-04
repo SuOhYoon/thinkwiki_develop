@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>생각위키:대문</title>
+        <script src = "search.js"></script>
+        <style>
+            #iframe {
+                width:100%;
+                border:none;
+            }
+            #article{
+                background-color:#4eff00;
+                padding:1px;
+                border:solid #4eff00;;
+                border-width:1px;
+                border-radius:5px;
+                box-shadow: 0px 1px 5px 1px #4eff00;
+            }
+            #div_help{
+                padding:1px;
+                background-color:#ffffff;
+                border:solid #ffffff;
+                border-width:1px;
+                border-radius:1px;
+                border-top-right-radius:5px;
+                border-bottom-right-radius:5px;
+            }
+            #board{
+                display:block;
+                margin-left:150px;
+            }
+            #test{
+                display:block;
+                color:white;
+                background-color:#4eff00;;
+                margin-right:100px;
+                padding:0px;
+            }
+            #intro{
+                text-align:center;
+            }
+    
+            #hr{
+                color:white;
+            }
+            .top_button {
+                    position: fixed;
+                    width: 50px;
+                    height: 50px;
+                    background-color: #4eff00;
+                    box-shadow: 2px 2px 5px 0px gray;
+                    border-radius: 5px;
+                    right: 30px;
+                    bottom: 30px;
+                    text-align: center;
+                    }
+            .top_button a {
+                    text-decoration: none;
+                    text-align:center;
+                    font-family: NanumSquareRound;
+                    font-size: 30px;
+                    padding-top: 40px;
+                    position: relative;
+                    width: 50px;
+                    height: 50px;
+                    }   
+    
+            .top_button a:link {
+                    color: white;
+                    }
+    
+            .top_button a:visited {
+                    color: white;
+                    }
+    
+            .top_button a:hover {
+                    color:yellow;
+                    }
+    
+            a {text-decoration:none; color:white}
+    
+            a:hover {color:yellow;}
+    
+            #form_clock {
+                background-color:#ffffff;
+                padding:1px;
+                border-radius:5px;
+                box-shadow: 0px 1px 5px 1px #4eff00;
+            }
+        </style>
+    </head>
+    <body onload="startTime()">
+        <header><a href="index.html"><img src="title.png"></a>
+        </header>
+        <nav id="title_nav">
+            <nav>
+                <iframe id="iframe" src="menubar.html"></iframe>    
+            </nav>
+        </nav>
+        <br>
+        <br>
+        <br>
+            <div id="intro"><span style="font-size:15pt;"><span style="color:#4eff00;"><b>생각</span>을 하면서, 즐거움을 느끼는 공간.</b></span>
+                <br><span style="color:#4eff00; ">생각위키</span>에 오신 기여자 여러분 반갑습니다.
+                <br>
+                <br>생각위키는 모든 사용자들이 기여할 수 있는 자유로운 인터넷 지식 백과사전입니다!
+                <br>검증되지 않거나 사실과는 다른 내용이 들어갈수 있습니다.
+            </div>
+        <article id="article">
+                <div id="test">
+                    <section><b><span style="font-size:15pt;">첫 방문이신가요?</span></b>
+                        <p><b><a href="">기본 규정</a></b>,&nbsp;<b><a href="doc_rule_of_user.html">이용자 제재 규정</a></b>,&nbsp;<b><a href="doc_manage_rule.html">운영 관리 규정</a></b>,&nbsp;<b><a href="doc_help.html">이용 도움말</a></b>을 확인해보세요.</p>
+                    </section>
+                </div>
+                    <hr id="hr">
+                <div id="test">
+                    <section>                                                              
+                        <b><span style="font-size:15pt;">생각위키 게시판</span></b>
+                            <p><a href="">공지</a>,&nbsp;<a href="">신고게시판</a>,&nbsp;<a href="">문의게시판</a>,&nbsp;이용 도움말을 확인해보세요.</p>
+                    </section>
+                </div>
+                    <hr id="hr">
+                <div id="test">
+                    <section> 
+                        <b><span style="font-size:15pt;">생각위키:운영</span></b>
+                            <p><a href="doc_staff_volunteer.html">운영진 지원</a>,&nbsp;<a href="doc_staff_history.html">역대 운영진</a></p>
+                    </section>
+                </div>               
+        </article>         
+        <hr>
+        <article>
+            <div id="clock"></div>
+        </article>
+        <hr>
+        <img src="ccl.png">
+        <footer>생각위키는 CC BY-NC-SA 2.0 KR에 따라 이용할 수 있습니다. 모든 기여자분들은 본인이 기여한 부분의 저작권을 가지게 됩니다.
+            <br>2019 Copyright.C thinkwiki-skin designed By GALAXY_NOTE, the developer of thinkwiki.
+        </footer>
+    </body>
+    <div class="top_button">
+        <a href="#top">top</a>
+    </div>
+    </html>
+</html>
